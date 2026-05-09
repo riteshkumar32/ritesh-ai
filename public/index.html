@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Ritesh AI</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <aside class="sidebar">
+
+      <div class="logo">
+        <div class="logo-circle"></div>
+        <h2>Ritesh AI</h2>
+      </div>
+
+      <button id="newChatBtn" class="new-chat">
+        <i data-lucide="plus"></i>
+        New Chat
+      </button>
+
+    </aside>
+
+    <main class="main">
+
+      <div class="topbar">
+        <h1>Ritesh AI</h1>
+      </div>
+
+      <div id="chatContainer" class="chat-container">
+
+        <div class="welcome">
+
+          <h2>Hello, Ritesh</h2>
+
+          <p>
+            How can I help you today?
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="input-wrapper">
+
+        <div class="input-container">
+
+          <label class="upload-btn">
+
+            <input
+              type="file"
+              id="fileInput"
+              hidden
+            />
+
+            <i data-lucide="paperclip"></i>
+
+          </label>
+
+          <textarea
+            id="messageInput"
+            placeholder="Message Ritesh AI..."
+            rows="1"
+          ></textarea>
+
+          <button id="sendBtn">
+            <i data-lucide="arrow-up"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
