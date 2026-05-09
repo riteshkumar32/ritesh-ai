@@ -7,6 +7,13 @@ The goal of this project was to build a clean and responsive AI assistant using 
 
 ---
 
+# Live Demo
+
+The project is deployed and accessible online using Render:
+
+https://ritesh-ai.onrender.com/
+
+
 ## Features
 
 - Real-time chat interface
